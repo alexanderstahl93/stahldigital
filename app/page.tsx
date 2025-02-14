@@ -5,6 +5,7 @@ import Footer from "./components/footer"
 import References from "./components/references"
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle } from 'lucide-react';
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Stahl Digital | SEO Optimierung, Google Werbung, Reputationsmanagement",
