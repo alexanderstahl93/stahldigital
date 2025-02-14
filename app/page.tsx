@@ -1,5 +1,4 @@
 import { Metadata } from "next"
-import Navbar from "./components/navbar"
 import Cover from "./components/cover"
 import Footer from "./components/footer"
 import References from "./components/references"
@@ -15,7 +14,6 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Cover />
       <References />
       <Footer />
