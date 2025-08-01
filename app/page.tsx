@@ -1,7 +1,6 @@
 import { Metadata } from "next"
 import Cover from "./components/cover"
 import Footer from "./components/footer"
-import References from "./components/references"
 
 export const metadata: Metadata = {
   title: "Stahl Digital | SEO Optimierung, Google Werbung, Reputationsmanagement",
@@ -14,7 +13,6 @@ const Home = () => {
   return (
     <>
       <Cover />
-      <References />
       <Footer />
     </>
   )
