@@ -7,16 +7,16 @@ export default function Example() {
               <strong>Umsatzwachstum</strong> durch SEO, Google Ads & Reputationsmanagement
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/9 text-gray-600">
-            Wir sorgen für <strong>Umsatzwachstum</strong> bei Dienstleistungsunternehmen in Wien & Umgebung durch SEO, Google Ads & Kundenbewertungen.
+            Ihr Partner für <strong>messbares Umsatzwachstum</strong>: Wir steigern den Umsatz von Dienstleistungsunternehmen in Wien & Umgebung durch strategische Digital-Marketing-Lösungen.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/leistungen"
                 className="rounded-md bg-custom-blue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-custom-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >
                 So funktioniert es
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-gray-900 hover:text-custom-orange">
+              <a href="/leistungen/kostenlose-beratung" className="text-sm/6 font-semibold text-gray-900 hover:text-custom-orange">
                 Ihr Investment <span aria-hidden="true">→</span>
               </a>
             </div>

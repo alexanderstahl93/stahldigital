@@ -1,23 +1,25 @@
 import Image from "next/image"
+import Link from "next/link"
 import { JSX, SVGProps } from "react"
 
 const navigation = {
-    solutions: [
-      { name: 'Local SEO', href: '#' },
-      { name: 'SEO Setup', href: '#' },
-      { name: 'SEO Betreuung', href: '#' },
-        ],
-    support: [
-      { name: 'Google Ads Setup', href: '#' },
-      { name: 'Google Ads Betreuung', href: '#' },
+    services: [
+      { name: 'SEO & Content Marketing', href: '/leistungen' },
+      { name: 'Google Ads Management', href: '/leistungen' },
+      { name: 'Reputationsmanagement', href: '/leistungen' },
+      { name: 'AI Search Integration', href: '/leistungen' },
+      { name: 'Web App Development', href: '/leistungen' },
+      { name: 'Conversion-Optimierung', href: '/leistungen' },
+    ],
+    packages: [
+      { name: 'Paket 1: Sichtbarkeit & Vertrauen', href: '/leistungen/pakete/sichtbarkeit-vertrauen' },
+      { name: 'Paket 2: Lead-Maschine', href: '/leistungen/pakete/lead-maschine' },
+      { name: 'Paket 3: Digitale Dominanz', href: '/leistungen/pakete/digitale-dominanz' },
     ],
     company: [
-      { name: 'Google Bewertungen', href: '#' },
-    ],
-    legal: [
-      { name: 'Das Team', href: '#' },
-      { name: 'Datenschutzerklärung', href: '#' },
-      { name: 'Impressumg', href: '#' },
+      { name: 'Das Team', href: '/ueber-uns' },
+      { name: 'Ihr Investment', href: '/ihr-investment' },
+      { name: 'Referenzen', href: '/referenzen' },
     ],
     social: [
       {
@@ -50,8 +52,7 @@ const navigation = {
                 height={50}
               />
               <p className="text-balance text-sm/6 text-gray-600">
-                Wir helfen Dienstleistungsunternehmen in Wien & Umgebung, mit SEO, Reputationsmanagement und Google Ads <strong>sichtbarer zu werden und ihren Umsatz zu steigern.</strong>
-              </p>
+              Wir steigern den Umsatz von Dienstleistungsunternehmen in Wien & Umgebung um durchschnittlich 40% durch maßgeschneiderte SEO-Strategien, zielgerichtete Google Ads und professionelles Reputationsmanagement.              </p>
               <div className="flex gap-x-6">
                 {navigation.social.map((item) => (
                   <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-800">
@@ -64,9 +65,11 @@ const navigation = {
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm/6 font-semibold text-gray-900">SEO</h3>
+                  <Link href="/leistungen">
+                  <h3 className="text-sm/6 font-semibold text-gray-900">Leistungen</h3>
+                  </Link>
                   <ul role="list" className="mt-6 space-y-4">
-                    {navigation.solutions.map((item) => (
+                    {navigation.services.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
                           {item.name}
@@ -76,9 +79,11 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm/6 font-semibold text-gray-900">Online Werbung</h3>
+                  <Link href="/leistungen/pakete">
+                  <h3 className="text-sm/6 font-semibold text-gray-900">Pakete</h3>
+                  </Link>
                   <ul role="list" className="mt-6 space-y-4">
-                    {navigation.support.map((item) => (
+                    {navigation.packages.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
                           {item.name}
@@ -88,23 +93,11 @@ const navigation = {
                   </ul>
                 </div>
               </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div className="md:grid md:grid-cols-1 md:gap-8">
                 <div>
-                  <h3 className="text-sm/6 font-semibold text-gray-900">Reputationsmanagement</h3>
+                  <h3 className="text-sm/6 font-semibold text-gray-900">Stahl Digital</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.company.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm/6 font-semibold text-gray-900">Über Uns</h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.legal.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900">
                           {item.name}
@@ -117,7 +110,7 @@ const navigation = {
             </div>
           </div>
           <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-            <p className="text-sm/6 text-gray-600">&copy; 2024 Stahl Digital KG</p>
+            <p className="text-sm/6 text-gray-600">&copy; {new Date().getFullYear()} Stahl & Söhne KG | <Link href="/rechtliches/datenschutz">Datenschutzerklärung</Link> | <Link href="/rechtliches/impressum">Impressum</Link></p>
           </div>
         </div>
       </footer>
