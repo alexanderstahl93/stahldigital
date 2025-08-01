@@ -117,13 +117,6 @@ export default function Navbar() {
               >
                 Referenzen
               </Link>
-              <Link
-                href="/kontakt"
-                className="block px-3 py-2 text-gray-900 hover:text-custom-orange font-medium transition-colors duration-200"
-                onClick={closeMenu}
-              >
-                Kontakt
-              </Link>
               <div className="px-3 py-2">
                 <Link
                   href="/leistungen/kostenlose-beratung"
