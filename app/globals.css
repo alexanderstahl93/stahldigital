@@ -3,19 +3,204 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
+  --background: #ffffff;
+  
+  /* Custom brand colors */
+  --custom-blue: #000080;
+  --custom-orange: #ff6600;
+  
+  /* Animation variables */
+  --float-duration: 6s;
+  --gradient-duration: 20s;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Blue Tone Background */
+.blue-tone-bg {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #e0e7ff 100%);
+}
+
+/* Floating Icons Animation - Mobile Responsive */
+.floating-icon {
+  animation: float var(--float-duration) ease-in-out infinite;
+  /* Mobile-first positioning */
+  position: absolute;
+}
+
+/* Mobile floating icon positions */
+.floating-icon:nth-child(1) {
+  top: 10%;
+  left: 5%;
+}
+
+.floating-icon:nth-child(2) {
+  top: 15%;
+  right: 5%;
+}
+
+.floating-icon:nth-child(3) {
+  bottom: 30%;
+  left: 10%;
+}
+
+/* Tablet and desktop floating icon positions */
+@media (min-width: 768px) {
+  .floating-icon:nth-child(1) {
+    top: 20%;
+    left: 10%;
+  }
+  
+  .floating-icon:nth-child(2) {
+    top: 32%;
+    right: 20%;
+  }
+  
+  .floating-icon:nth-child(3) {
+    bottom: 40%;
+    left: 25%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 1024px) {
+  .floating-icon:nth-child(1) {
+    top: 20%;
+    left: 10%;
+  }
+  
+  .floating-icon:nth-child(2) {
+    top: 32%;
+    right: 20%;
+  }
+  
+  .floating-icon:nth-child(3) {
+    bottom: 40%;
+    left: 25%;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-20px) rotate(5deg); }
+  66% { transform: translateY(-10px) rotate(-5deg); }
+}
+
+/* Typing Animation - Mobile Responsive and Centered */
+.typing-animation {
+  overflow: hidden;
+  border-right: 3px solid var(--custom-blue);
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Mobile typing animation adjustments */
+@media (max-width: 768px) {
+  .typing-animation {
+    animation: typing-mobile 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    white-space: normal;
+    border-right: none;
+  }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes typing-mobile {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--custom-blue); }
+}
+
+/* Parallax Effect */
+.parallax-bg {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar - Mobile Optimized */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #1e40af; /* custom-blue */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1e3a8a;
+  }
+}
+
+/* Glassmorphism Effect - Mobile Optimized */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile glassmorphism fallback */
+@media (max-width: 768px) {
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Hover Effects - Mobile Optimized */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Loading Animation */
+.loading-dots {
+  display: inline-block;
+}
+
+.loading-dots::after {
+  content: '';
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0%, 20% { content: ''; }
+  40% { content: '.'; }
+  60% { content: '..'; }
+  80%, 100% { content: '...'; }
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Reduce animation complexity on mobile */
+  .floating-icon {
+    animation-duration: 8s; /* Slower animation for better performance */
+  }
 }
