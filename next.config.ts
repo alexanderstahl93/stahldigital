@@ -3,11 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   
-  // Suppress hydration warnings in development
-  experimental: {
-    suppressHydrationWarning: true,
-  },
-  
   // Optimize development experience
   onDemandEntries: {
     maxInactiveAge: 25 * 1000,
@@ -21,7 +16,6 @@ const nextConfig: NextConfig = {
   },
   
   // SEO & Performance Optimizations
-  swcMinify: true,
   poweredByHeader: false,
   
   // Image optimization for SEO
