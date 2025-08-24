@@ -59,7 +59,7 @@ const packages = [
   {
     name: "Lead-Maschine",
     slug: "lead-maschine",
-    tagline: "Für wachsende Betriebe, die gezielt Kundenanfragen über Google gewinnen wollen",
+    tagline: "Für wachsende Betriebe, die gezielt mehr Kundenanfragen erhalten möchten.",
     monthlyPrice: 2490,
     yearlyPrice: 24900,
     originalYearlyPrice: 29880,

@@ -21,7 +21,7 @@ export default function LeadMaschine() {
               <span className="text-custom-blue">Lead</span>-Maschine
             </h1>
             <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
-              Für wachsende Betriebe, die gezielt Kundenanfragen über Google gewinnen wollen. 
+              Für wachsende Betriebe, die gezielt mehr Kundenanfragen erhalten möchten. 
               Signifikante Traffic-Steigerung mit qualifizierter Lead-Generierung.
             </p>
             
