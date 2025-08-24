@@ -287,7 +287,7 @@ export default function LeistungenPage() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
                 Digitale Marketing Leistungen

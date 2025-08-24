@@ -33,13 +33,15 @@ const packages = [
     originalYearlyPrice: 17880,
     savings: "2 Monate geschenkt",
     features: [
+      "Set Up einer neuen Web App angepasst an individuelle Bedürfnisse",
+      "Best Practices für GEO-KI Ranking (Auffindbarkeit in LLMs wie ChatGPT, Perplexity, Gemini, etc.)",
       "Local SEO Setup (inkl. Google Business Optimierung)",
-      "SEO Betreuung (Basic): 5 Keywords, 1 Blogartikel/Monat",
-      "Google Ads Setup & Betreuung (bis €1.500 Budget)",
-      "Bewertungsstrategie (manuell) mit QR-Code, E-Mail-Vorlagen",
-      "Monatliches Reporting + Empfehlungen",
-      "Strategie-Call alle 60 Tage",
-      "Basis-Web-Check (CRO-Analyse der bestehenden Website)"
+      "Profesionelles Fotoshooting für GMB und Website",
+      "SEO Betreuung (Basic): 5 Keywords, 5 Blogartikel",
+      "Google Ads or Meta Ads Setup",
+      "Bewertungsstrategie (manuell) mit QR-Code, Textvorlagen",
+      "Abschlussreporting + Empfehlungen",
+      "Wachstumscall alle 60 Tage",
     ],
     bestFor: [
       "Lokale Dienstleister",
@@ -48,9 +50,9 @@ const packages = [
       "Grundlegende Online-Sichtbarkeit"
     ],
     results: [
-      "Erste Google-Rankings in 3-6 Monaten",
+      "Erste Google-Rankings in 2-3 Monaten",
       "Steigerung der lokalen Sichtbarkeit",
-      "Gezielte Kundenanfragen über Google Ads",
+      "Gezielte Kundenanfragen durch messbar mehr Sichtbarkeit",
       "Aufbau positiver Bewertungen"
     ]
   },
@@ -195,7 +197,7 @@ export default function PaketePage() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
                 Digitale Marketing Pakete
@@ -205,7 +207,7 @@ export default function PaketePage() {
                 Von der ersten Online-Sichtbarkeit bis zur digitalen Marktführerschaft - 
                 wir haben die perfekte Lösung für Ihr Business.
               </p>
-              <div className="bg-blue-600 text-white rounded-lg p-6 max-w-2xl mx-auto">
+              <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-emerald-700 text-white rounded-lg p-6 max-w-2xl mx-auto">
                 <h2 className="text-xl font-semibold mb-2">🎉 Jährliche Option: 2 Monate geschenkt!</h2>
                 <p className="text-blue-100">
                   Sparen Sie bis zu €9.980 im Jahr und erhalten Sie 2 Monate kostenlos.

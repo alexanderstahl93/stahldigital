@@ -12,7 +12,7 @@ export default function IhrInvestment() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="py-16 md:py-20 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Ihr strategisches <span className="text-custom-blue">Investment</span>

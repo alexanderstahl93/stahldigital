@@ -12,7 +12,7 @@ export default function Referenzen() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="py-16 md:py-20 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Erfolgreiche <span className="text-custom-blue">Referenzen</span>
@@ -250,7 +250,7 @@ export default function Referenzen() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-20 lg:py-24 bg-custom-blue">
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-700 via-blue-600 to-emerald-700">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight text-white mb-6">
             Werden Sie unsere nächste Erfolgsgeschichte
@@ -261,7 +261,7 @@ export default function Referenzen() {
           </p>
           <a
             href="/leistungen/kostenlose-beratung"
-            className="bg-custom-orange hover:bg-orange-600 text-white font-medium px-8 py-4 rounded-lg transition-colors duration-200 inline-block"
+            className="bg-white text-custom-blue font-medium px-8 py-4 rounded-lg transition-colors duration-200 inline-block"
           >
             Kostenlose Erfolgs-Analyse
           </a>
