@@ -11,22 +11,36 @@ export default function IhrInvestment() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 md:py-20 lg:py-24">
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 mt-12">
         <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Ihr strategisches <span className="text-custom-blue">Investment</span>
             </h1>
-            <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
               Präzise Digital-Marketing-Strategien für messbare Umsatzsteigerungen. 
               Jede Investition wird durch datenbasierte Optimierung und strategische Expertise maximiert.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="#investment" 
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-4 rounded-lg transition-colors duration-200"
+              >
+                Investment entdecken
+              </a>
+              <a 
+                href="/leistungen" 
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium px-8 py-4 rounded-lg transition-all duration-200"
+              >
+                Unsere Leistungen
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Investment Categories */}
-      <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
+      <section id="investment" className="py-16 md:py-20 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight mb-6">

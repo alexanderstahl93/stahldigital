@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Impressum - Stahl & Söhne KG',
     description: 'Rechtliche Informationen und Impressum der Stahl & Söhne KG',
     type: 'website',
-    url: 'https://stahl-digital.com/impressum',
+    url: 'https://stahldigital.at/impressum',
   }
 }
 
@@ -18,21 +18,22 @@ export default function ImpressumPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="mb-12 mt-24">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <div className="text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-custom-blue">
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 mt-12">
+        <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Impressum
             </h1>
-            <p className="text-lg leading-relaxed text-gray-600 max-w-2xl">
-              Rechtliche Informationen und gesetzlich erforderliche Angaben der Stahl & Söhne KG
+            <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
+              Rechtliche Informationen und gesetzlich erforderliche Angaben der Stahl & Söhne KG. 
+              Alle gesetzlich erforderlichen Angaben gemäß österreichischem Recht und DSGVO.
             </p>
           </div>
         </div>
       </section>
 
       {/* Content Sections */}
-      <section className="py-4 md:py-4 lg:py-4">
+      <section id="impressum" className="py-16 md:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="space-y-16">
             
@@ -56,10 +57,10 @@ export default function ImpressumPage() {
                 </h3>
                 <div className="space-y-4 text-lg leading-relaxed text-gray-600">
                   <p><strong>Adresse:</strong><br />
-                  Altmannsdorfer Straße 104/4/410<br />
-                  1120 Wien, Österreich</p>
-                  <p><strong>E-Mail:</strong> office@stahl-digital.com</p>
-                  <p><strong>Telefon:</strong> +43 1 XXX XXX XXX</p>
+                  Fleischmarkt 1/6<br />
+                  1010 Wien, Österreich</p>
+                  <p><strong>E-Mail:</strong> <a href="mailto:office@stahldigital.at">office@stahldigital.at</a></p>
+                  <p><strong>Telefon:</strong> <a href="tel:+436767734689">+43 676 773 46 89</a></p>
                 </div>
               </div>
             </div>
@@ -126,7 +127,7 @@ export default function ImpressumPage() {
                   sind ausschließlich deren Betreiber verantwortlich.
                 </p>
                 <p>
-                  <strong>Datenschutz:</strong> Informationen zum Datenschutz finden Sie in unserer 
+                  <strong>Datenschutz:</strong> Informationen zum Datenschutz finden Sie in unserer <br />
                   <a href="/datenschutz" className="text-blue-600 hover:text-blue-700 underline">
                     Datenschutzerklärung
                   </a>.

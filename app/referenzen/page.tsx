@@ -11,144 +11,164 @@ export default function Referenzen() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 md:py-20 lg:py-24">
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 mt-12">
         <div className="max-w-7xl mx-auto mt-12 px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Erfolgreiche <span className="text-custom-blue">Referenzen</span>
             </h1>
-            <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
               Entdecken Sie, wie wir unseren Kunden zu messbaren Erfolgen verholfen haben. 
               Jede Referenz zeigt konkrete Ergebnisse und strategische Digital-Marketing-Lösungen.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="#references" 
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-4 rounded-lg transition-colors duration-200"
+              >
+                Referenzen entdecken
+              </a>
+              <a 
+                href="/leistungen" 
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium px-8 py-4 rounded-lg transition-all duration-200"
+              >
+                Unsere Leistungen
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* References Grid */}
-      <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
+      <section id="references" className="py-16 md:py-20 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             
             {/* Thales Capital */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
-              <div className="p-6 md:p-8">
-                <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-custom-blue rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-white font-bold text-xl">TC</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-medium tracking-tight">Thales Capital</h3>
-                    <p className="text-sm text-gray-500">Finanzdienstleistungen</p>
-                  </div>
-                </div>
-                
-                <div className="space-y-4 mb-6">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+            <a href="https://www.thalescapital.de" className="block group">
+              <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden transition-all duration-200 group-hover:shadow-xl group-hover:border-blue-300">
+                <div className="p-6 md:p-8">
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-custom-blue rounded-lg flex items-center justify-center mr-4">
+                      <span className="text-white font-bold text-xl">TC</span>
+                    </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-1">SEO-Optimierung</h4>
-                      <p className="text-sm text-gray-600">
-                        Steigerung der organischen Sichtbarkeit um 180% innerhalb von 8 Monaten.
-                      </p>
+                      <h3 className="text-xl md:text-2xl font-medium tracking-tight">Thales Capital</h3>
+                      <p className="text-sm text-gray-500">Finanzdienstleistungen</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-1">Google Ads</h4>
-                      <p className="text-sm text-gray-600">
-                        Conversion-Rate von 4.2% bei 35% niedrigeren Kosten pro Lead.
-                      </p>
+                  <div className="space-y-4 mb-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">SEO-Optimierung</h4>
+                        <p className="text-sm text-gray-600">
+                          Steigerung der organischen Sichtbarkeit um 180% innerhalb von 8 Monaten.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">Google Ads</h4>
+                        <p className="text-sm text-gray-600">
+                          Conversion-Rate von 4.2% bei 35% niedrigeren Kosten pro Lead.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">Ergebnis</h4>
+                        <p className="text-sm text-gray-600">
+                          250% mehr qualifizierte Anfragen bei 40% höherem durchschnittlichem Auftragswert.
+                        </p>
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-1">Ergebnis</h4>
-                      <p className="text-sm text-gray-600">
-                        250% mehr qualifizierte Anfragen bei 40% höherem durchschnittlichem Auftragswert.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gray-50 rounded-lg p-4">
-                  <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-custom-blue">180%</div>
-                      <div className="text-xs text-gray-600">Sichtbarkeit</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-custom-blue">250%</div>
-                      <div className="text-xs text-gray-600">Mehr Anfragen</div>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="grid grid-cols-2 gap-4 text-center">
+                      <div>
+                        <div className="text-2xl font-bold text-custom-blue">180%</div>
+                        <div className="text-xs text-gray-600">Sichtbarkeit</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-bold text-custom-blue">250%</div>
+                        <div className="text-xs text-gray-600">Mehr Anfragen</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Stahl & Söhne KG */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
-              <div className="p-6 md:p-8">
-                <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-custom-blue rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-white font-bold text-xl">S&S</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-medium tracking-tight">Stahl & Söhne KG</h3>
-                    <p className="text-sm text-gray-500">Handwerk & Dienstleistungen</p>
-                  </div>
-                </div>
-                
-                <div className="space-y-4 mb-6">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+              <a href="https://www.stahlundsoehne.de" className="block group">
+              <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden transition-all duration-200 group-hover:shadow-xl group-hover:border-blue-300">
+                <div className="p-6 md:p-8">
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-custom-blue rounded-lg flex items-center justify-center mr-4">
+                      <span className="text-white font-bold text-xl">S&S</span>
+                    </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-1">Local SEO</h4>
-                      <p className="text-sm text-gray-600">
-                        Platzierung in den Top 3 für 15 lokale Suchbegriffe innerhalb von 6 Monaten.
-                      </p>
+                      <h3 className="text-xl md:text-2xl font-medium tracking-tight">Stahl & Söhne KG</h3>
+                      <p className="text-sm text-gray-500">Handwerk & Dienstleistungen</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-1">Reputationsmanagement</h4>
-                      <p className="text-sm text-gray-600">
-                        Durchschnittliche Bewertung von 4.8/5 Sternen mit 85 neuen positiven Reviews.
-                      </p>
+                  <div className="space-y-4 mb-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">SEO-Optimierung</h4>
+                        <p className="text-sm text-gray-600">
+                          Steigerung der organischen Sichtbarkeit um 180% innerhalb von 3 Monaten.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">Google Ads</h4>
+                        <p className="text-sm text-gray-600">
+                          Die Kosten pro Lead sind um 35% niedriger geworden.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-1">Ergebnis</h4>
+                        <p className="text-sm text-gray-600">
+                          Der durchschnittliche Auftragswert ist um 40% höher geworden.
+                          Die Conversion-Rate ist um 20% höher geworden.
+                        </p>
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-custom-orange rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-1">Ergebnis</h4>
-                      <p className="text-sm text-gray-600">
-                        300% mehr lokale Anfragen und 60% höhere Auftragsannahme-Rate.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gray-50 rounded-lg p-4">
-                  <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-custom-blue">4.8/5</div>
-                      <div className="text-xs text-gray-600">Bewertung</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-custom-blue">300%</div>
-                      <div className="text-xs text-gray-600">Mehr Anfragen</div>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="grid grid-cols-2 gap-4 text-center">
+                      <div>
+                        <div className="text-2xl font-bold text-custom-blue">180%</div>
+                        <div className="text-xs text-gray-600">Sichtbarkeit</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-bold text-custom-blue">250%</div>
+                        <div className="text-xs text-gray-600">Mehr Anfragen</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
+
 
           </div>
         </div>

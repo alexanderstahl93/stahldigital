@@ -11,7 +11,7 @@ export default function DigitaleDominanz() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100">
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 mt-12">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-block bg-custom-orange text-white px-4 py-2 rounded-full text-sm font-medium mb-6">

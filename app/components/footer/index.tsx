@@ -17,7 +17,7 @@ const navigation = {
     { name: 'Digitale Dominanz', href: '/leistungen/pakete/digitale-dominanz', icon: '👑' },
   ],
   company: [
-    { name: 'Das Team', href: '/ueber-uns', icon: '👥' },
+    { name: 'Das Team', href: '/team', icon: '👥' },
     { name: 'Ihr Investment', href: '/ihr-investment', icon: '💰' },
     { name: 'Referenzen', href: '/referenzen', icon: '🏆' },
   ],

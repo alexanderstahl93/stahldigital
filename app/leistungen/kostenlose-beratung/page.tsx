@@ -152,7 +152,7 @@ export default function BeratungPage() {
       
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 mt-12">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="space-y-6">
@@ -172,7 +172,7 @@ export default function BeratungPage() {
                     Jetzt Beratung anfordern
                   </a>
                   <a 
-                    href="tel:+43123456789" 
+                    href="tel:+436767734689" 
                     className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium px-8 py-4 rounded-lg transition-all duration-200 text-center"
                   >
                     Direkt anrufen
@@ -180,9 +180,14 @@ export default function BeratungPage() {
                 </div>
               </div>
               
+              {/* Formular */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Kostenlose Beratung anfordern</h3>
-                <form className="space-y-4">
+                <form 
+                  action="https://formspree.io/f/movnvjga" 
+                  method="POST" 
+                  className="space-y-4"
+                >
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                       Name *
