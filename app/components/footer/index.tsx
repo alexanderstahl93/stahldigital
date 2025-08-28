@@ -16,6 +16,10 @@ const navigation = {
     { name: 'Lead-Maschine', href: '/leistungen/pakete/lead-maschine', icon: '🎣' },
     { name: 'Digitale Dominanz', href: '/leistungen/pakete/digitale-dominanz', icon: '👑' },
   ],
+  branche: [
+    { name: 'Branchenübersicht', href: '/leistungen/branche', icon: '🏠' },
+    { name: 'Umzug', href: '/leistungen/branche/umzug', icon: '🏠' },
+  ],
   company: [
     { name: 'Das Team', href: '/team', icon: '👥' },
     { name: 'Ihr Investment', href: '/ihr-investment', icon: '💰' },
@@ -47,7 +51,7 @@ export default function Footer() {
         <div className="py-16 md:py-20 lg:py-24">
           
           {/* Mobile-First Grid Layout */}
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 xl:gap-8">
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-5 xl:gap-8">
             
             {/* Company Info - Full Width on Mobile */}
             <div className="col-span-1 md:col-span-2 lg:col-span-1 space-y-6">
@@ -135,6 +139,33 @@ export default function Footer() {
               </Link>
               <ul className="space-y-3">
                 {navigation.packages.map((item) => (
+                  <li key={item.name}>
+                    <a 
+                      href={item.href} 
+                      className="group flex items-center space-x-2 text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200 py-1"
+                    >
+                      <span className="text-base opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                        {item.icon}
+                      </span>
+                      <span className="group-hover:translate-x-1 transition-transform duration-200">
+                        {item.name}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Branche Section */}
+
+            <div className="space-y-6">
+              <Link href="/leistungen/branche" className="group">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                  Branchenübersicht
+                </h3>
+              </Link>
+              <ul className="space-y-3">
+                {navigation.branche.map((item) => (
                   <li key={item.name}>
                     <a 
                       href={item.href} 

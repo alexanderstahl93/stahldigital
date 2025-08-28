@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
+
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -96,23 +96,19 @@ export default function Navbar() {
 
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-20">
-            {/* Enhanced Logo with Parallax Effect */}
+            {/* Typewriter Logo Effect */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center group" onClick={closeMenu}>
                 <div className="relative overflow-hidden">
                   <div className="relative z-10">
-                    <Image
-                      src="/stahl_digital.png"
-                      alt="Stahl Digital - Elite SEO, Google Ads & Reputationsmanagement"
-                      width={140}
-                      height={40}
-                      className="h-10 w-auto transition-all duration-500 group-hover:scale-110 group-hover:rotate-1"
-                    />
+                    <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-custom-blue to-custom-orange bg-clip-text text-transparent transition-all duration-500 group-hover:scale-110 group-hover:rotate-1">
+                      <span className="typewriter-text">Stahl Digital</span>
+                    </h1>
                   </div>
                   {/* Animated underline with gradient */}
-                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-600 via-emerald-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-custom-blue via-custom-orange to-custom-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
                   {/* Glow effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-emerald-400/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-custom-blue/20 to-custom-orange/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
                 </div>
               </Link>
             </div>
@@ -120,6 +116,18 @@ export default function Navbar() {
             {/* Enhanced Desktop Navigation with Smart Highlighting */}
             <div className="hidden lg:flex lg:items-center lg:space-x-1">
               <div className="flex items-center space-x-1 bg-gray-50/60 backdrop-blur-sm rounded-full p-1 border border-gray-200/50 shadow-sm">
+                <Link
+                  href="/webinar"
+                  className={getNavLinkClass('/webinar')}
+                >
+                  Webinar
+                </Link>
+                <Link
+                  href="/leistungen/branche"
+                  className={getNavLinkClass('/leistungen/branche')}
+                >
+                  Branchenübersicht
+                </Link>
                 <Link
                   href="/leistungen"
                   className={getNavLinkClass('/leistungen')}
@@ -207,6 +215,8 @@ export default function Navbar() {
               
               <div className="relative z-10 space-y-2">
                 {[
+                  { href: "/webinar", label: "Webinar"},
+                  { href: "/leistungen/branche", label: "Branchenübersicht"},
                   { href: "/leistungen", label: "Leistungen" },
                   { href: "/leistungen/pakete", label: "Pakete"},
                   { href: "/ihr-investment", label: "Investment"},

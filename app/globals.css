@@ -96,6 +96,25 @@
   margin: 0 auto;
 }
 
+/* Typewriter Logo Effect */
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid transparent;
+  white-space: nowrap;
+  animation: typewriter 2s steps(12, end), blink-caret 0.75s step-end infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 /* Mobile typing animation adjustments */
 @media (max-width: 768px) {
   .typing-animation {

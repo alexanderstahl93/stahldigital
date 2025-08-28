@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Cover() {
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -239,11 +241,15 @@ export default function Cover() {
             {/* Alexander's Foto */}
             <div className="text-center lg:text-left">
               <div className="relative inline-block">
-                <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-custom-blue to-custom-orange rounded-full mx-auto lg:mx-0 flex items-center justify-center shadow-2xl">
-                  <div className="text-white text-center">
-                    <div className="text-4xl md:text-6xl font-bold mb-2">AS</div>
-                    <div className="text-lg md:text-xl opacity-90">Alexander Stahl</div>
-                  </div>
+                <div className="w-64 h-64 md:w-80 md:h-80 rounded-full mx-auto lg:mx-0 overflow-hidden shadow-2xl border-4 border-white">
+                  <Image
+                    src="/alexanderstahl.png"
+                    alt="Alexander Stahl - Stahl Digital"
+                    width={320}
+                    height={320}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-custom-orange rounded-full flex items-center justify-center shadow-lg">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

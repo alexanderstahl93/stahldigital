@@ -157,7 +157,7 @@ export default function BeratungPage() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                  Kostenlose Marketing Beratung
+                  Praxisorientierte Beratung zur Umsatzsteigerung
                 </h1>
                 <p className="text-lg leading-relaxed text-gray-600">
                   Lassen Sie uns gemeinsam Ihre digitale Marketing Strategie entwickeln. 
