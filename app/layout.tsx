@@ -4,6 +4,7 @@ import "./globals.css";
 import { GoogleTagManager } from '@next/third-parties/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Navbar from "./components/navbar";
+import ScrollProgress from "./components/scroll-progress";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -249,6 +250,7 @@ export default function RootLayout({
       </head>
       <GoogleTagManager gtmId="GTM-" />
       <body className={`${inter.className} antialiased`}>
+        <ScrollProgress />
         <Navbar />
         {children}
       </body>

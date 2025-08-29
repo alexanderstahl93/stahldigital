@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Footer from '../components/footer'
 
 export const metadata: Metadata = {
@@ -111,11 +112,19 @@ export default function TeamPage() {
                 </div>
               </div>
               
+              {/* Bild von Alexander Stahl */}
               <div className="order-first md:order-last">
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8 md:p-12">
                   <div className="text-center space-y-4">
-                    <div className="w-32 h-32 bg-blue-600 rounded-full mx-auto flex items-center justify-center">
-                      <span className="text-white text-4xl font-bold">AS</span>
+                    <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white shadow-lg">
+                      <Image
+                        src="/alexanderstahl.png"
+                        alt="Alexander Stahl - Geschäftsführer & Gründer Stahl Digital"
+                        width={128}
+                        height={128}
+                        className="w-full h-full object-cover"
+                        priority
+                      />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900">Alexander Stahl</h3>
                     <p className="text-gray-600">Geschäftsführer & Gründer</p>
@@ -124,13 +133,20 @@ export default function TeamPage() {
               </div>
             </div>
 
-            {/* Musa */}
+            {/* Musa - Bild */}
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="order-first">
                 <div className="bg-gradient-to-br from-emerald-50 to-teal-100 rounded-2xl p-8 md:p-12">
                   <div className="text-center space-y-4">
-                    <div className="w-32 h-32 bg-emerald-600 rounded-full mx-auto flex items-center justify-center">
-                      <span className="text-white text-4xl font-bold">M</span>
+                    <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white shadow-lg">
+                      <Image
+                        src="/musakaraca.jpeg"
+                        alt="Musa Karaca - Creative Video Professional Stahl Digital"
+                        width={128}
+                        height={128}
+                        className="w-full h-full object-cover"
+                        priority
+                      />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900">Musa</h3>
                     <p className="text-gray-600">Creative Video Professional</p>

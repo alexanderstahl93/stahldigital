@@ -126,9 +126,9 @@ export default function UmzugPage() {
             
             <div className="bg-gradient-to-br from-purple-50 to-violet-100 rounded-lg p-6 border border-purple-200">
               <div className="text-3xl mb-4">🔍</div>
-              <h3 className="text-xl font-semibold mb-3">Local SEO</h3>
+              <h3 className="text-xl font-semibold mb-3">Positionierung</h3>
               <p className="text-gray-600">
-                Optimierung für lokale Suchanfragen und Google My Business für Umzugsunternehmen.
+                Firmenumzug, Privatumzug, Büroumzug, Hausumzug, oder auch nur ein kleiner Umzug - wir sorgen dafür, dass Sie dort gesehen werden, wo Sie anpacken möchten.
               </p>
             </div>
             
