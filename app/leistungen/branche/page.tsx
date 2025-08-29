@@ -116,21 +116,21 @@ export default function BranchePage() {
                 <p className="text-custom-blue font-semibold">Aktiv verfügbar</p>
               </div>
               <p className="text-gray-600 mb-6 text-center">
-                Spezialisiert auf Umzugsunternehmen in Wien und Umgebung. 
-                Wir verstehen die Herausforderungen der Branche und entwickeln maßgeschneiderte Lösungen.
+                Spezialisiert auf Umzugsunternehmen, da wir selbst in der Branche tätig sind.
+                Wir geben bewährte Methoden zur Umsatzsteigerung und Kundenakquise weiter.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-600">
                   <span className="text-green-500 mr-2">✓</span>
-                  Umzug SEO Optimierung
+                  Bessere Sichtbarkeit für die gewünschte Zielgruppe
                 </div>
                 <div className="flex items-center text-sm text-gray-600">
                   <span className="text-green-500 mr-2">✓</span>
-                  Google Ads für Umzug
+                  Nachhaltiges Kundenmanagement für CLV-Steigerung
                 </div>
                 <div className="flex items-center text-sm text-gray-600">
                   <span className="text-green-500 mr-2">✓</span>
-                  Local SEO für Umzugsunternehmen
+                  Business Intelligence für bessere Entscheidungsfindung
                 </div>
               </div>
               <a

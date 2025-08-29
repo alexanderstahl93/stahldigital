@@ -12,21 +12,21 @@ export default function UmzugPage() {
               🏠 SPEZIALISIERT AUF UMZUGSUNTERNEHMEN
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              Umzug Marketing & SEO
+              Business Development & Marketing
             </h1>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-custom-blue mb-6">
-              Mehr Kunden für Ihr Umzugsunternehmen in Wien
+              Mehr Kunden, und nachhaltige Prozessoptimierung für Ihr Umzugsunternehmen.
             </h2>
             <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
-              Wir helfen Umzugsunternehmen dabei, online sichtbar zu werden, qualifizierte Leads zu generieren und den Umsatz zu steigern. 
-              Spezialisiert auf die lokale Umzugsbranche in Wien und Umgebung.
+              Wir helfen Umzugsunternehmen dabei, online sichtbar zu werden, qualifizierte Leads zu generieren und den Umsatz nachhaltig zu steigern. 
+              Als Inhaber eines Umzugsunternehmens, verstehen wir die Herausforderungen der Branche und geben bewährte Methoden weiter.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#beratung"
                 className="bg-gradient-to-r from-custom-blue to-custom-orange hover:from-blue-700 hover:to-orange-600 text-white font-bold px-8 py-4 rounded-lg transition-all duration-200 shadow-lg transform hover:scale-105"
               >
-                🚀 Kostenlose Beratung
+                Beratung anfordern
               </a>
             </div>
           </div>
@@ -94,33 +94,33 @@ export default function UmzugPage() {
               ✅ Unsere Lösung für Umzugsunternehmen
             </h2>
             <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto">
-              Wir entwickeln maßgeschneiderte Marketing-Strategien, die speziell auf die Bedürfnisse 
-              der Umzugsbranche zugeschnitten sind.
+              Unsere Lösung kommt aus der Praxis. Wir haben selbst Erfahrung in der Umzugsbranche und wissen, wie es geht.
+              Wir geben bewährte Methoden weiter und helfen Ihnen, Ihr Unternehmen nachhaltig zu steigern.
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-lg p-6 border border-blue-200">
               <div className="text-3xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-3">Umzug SEO Optimierung</h3>
+              <h3 className="text-xl font-semibold mb-3">Sichtbarkeit</h3>
               <p className="text-gray-600">
-                Verbessern Sie Ihre Google-Rankings für Umzug-bezogene Suchanfragen in Wien und Umgebung.
+                Wir verbessern Ihre Sichtbarkeit, und sorgen dafür, dass Sie dort gesehen werden, wo Sie gebraucht werden.
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-green-50 to-emerald-100 rounded-lg p-6 border border-green-200">
               <div className="text-3xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold mb-3">Google Ads für Umzug</h3>
+              <h3 className="text-xl font-semibold mb-3">Werbeschaltung</h3>
               <p className="text-gray-600">
-                Zielgerichtete Werbung für Umzugsdienstleistungen mit optimierten Conversion-Raten.
+                Wir schalten Werbung so, dass Sie Sinn macht, und Ihnen den meisten Nutzen bringt.
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-orange-50 to-amber-100 rounded-lg p-6 border border-orange-200">
               <div className="text-3xl mb-4">⚡</div>
-              <h3 className="text-xl font-semibold mb-3">Social Media Marketing</h3>
+              <h3 className="text-xl font-semibold mb-3">Kundenmanagement</h3>
               <p className="text-gray-600">
-                Aufbau einer starken Online-Präsenz und Community für Ihr Umzugsunternehmen.
+                Wir optimieren die Kommunikationsprozesse mit Ihren Kunden, und sorgen dafür, dass Kunden langfristig wiederkehren, und weitere Kunden empfehlen.
               </p>
             </div>
             
