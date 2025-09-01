@@ -298,7 +298,7 @@ export default function Cover() {
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>Umzugsfirma erfolgreich aufgebaut</span>
+                      <span>Umzugsfirma <a href="https://www.stahlundsoehne.at" className="text-white underline">Stahl & Söhne KG</a> erfolgreich aufgebaut</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -333,150 +333,150 @@ export default function Cover() {
       </section>
 
       {/* Der Vergleich - Was kostet es wirklich? */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
               Was investierst du wirklich?
             </h2>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4 md:px-0">
               Transparenz bei den Kosten - keine versteckten Gebühren, 
               keine Überraschungen. Du weißt immer, was du investierst.
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-start">
             {/* Andere Agenturen */}
-            <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200">
-              <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white rounded-xl md:rounded-2xl p-6 md:p-8 lg:p-10 shadow-lg border border-gray-200">
+              <div className="text-center mb-6 md:mb-8">
+                <div className="w-12 h-12 md:w-16 md:h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                  <svg className="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Andere Agenturen</h3>
-                <p className="text-red-600 font-medium">Versteckte Kosten & Überraschungen</p>
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Andere Agenturen</h3>
+                <p className="text-red-600 font-medium text-sm md:text-base">Versteckte Kosten & Überraschungen</p>
               </div>
               
-              <div className="space-y-6">
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Setup-Gebühren</span>
-                    <span className="text-2xl font-bold text-red-600">€2.000-5.000</span>
+              <div className="space-y-4 md:space-y-6">
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Setup-Gebühren</span>
+                    <span className="text-xl md:text-2xl font-bold text-red-600">€2.000-5.000</span>
                   </div>
-                  <p className="text-sm text-gray-500">Einmalige Kosten vor dem Start</p>
+                  <p className="text-xs md:text-sm text-gray-500">Einmalige Kosten vor dem Start</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Monatliche Kosten</span>
-                    <span className="text-2xl font-bold text-red-600">€1.500-3.000</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Monatliche Kosten</span>
+                    <span className="text-xl md:text-2xl font-bold text-red-600">€1.500-3.000</span>
                   </div>
-                  <p className="text-sm text-gray-500">Management & Wartung</p>
+                  <p className="text-xs md:text-sm text-gray-500">Management & Wartung</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Vertragslaufzeit</span>
-                    <span className="text-2xl font-bold text-red-600">12-24 Monate</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Vertragslaufzeit</span>
+                    <span className="text-xl md:text-2xl font-bold text-red-600">12-24 Monate</span>
                   </div>
-                  <p className="text-sm text-gray-500">Gebunden, auch wenn es nicht funktioniert</p>
+                  <p className="text-xs md:text-sm text-gray-500">Gebunden, auch wenn es nicht funktioniert</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Zusatzkosten</span>
-                    <span className="text-2xl font-bold text-red-600">€500-1.500</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Zusatzkosten</span>
+                    <span className="text-xl md:text-2xl font-bold text-red-600">€500-1.500</span>
                   </div>
-                  <p className="text-sm text-gray-500">Pro Monat für &ldquo;zusätzliche&rdquo; Services</p>
+                  <p className="text-xs md:text-sm text-gray-500">Pro Monat für &ldquo;zusätzliche&rdquo; Services</p>
                 </div>
                 
-                <div className="pt-4">
+                <div className="pt-3 md:pt-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-red-600 mb-2">€20.000-60.000</div>
-                    <div className="text-sm text-gray-500">Gesamtkosten im ersten Jahr</div>
+                    <div className="text-2xl md:text-3xl font-bold text-red-600 mb-1 md:mb-2">€20.000-60.000</div>
+                    <div className="text-xs md:text-sm text-gray-500">Gesamtkosten im ersten Jahr</div>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Stahl Digital */}
-            <div className="bg-white rounded-2xl p-8 md:p-10 shadow-xl border-2 border-custom-blue relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <div className="bg-custom-blue text-white px-6 py-2 rounded-full text-sm font-semibold">
+            <div className="bg-white rounded-xl md:rounded-2xl p-6 md:p-8 lg:p-10 shadow-xl border-2 border-custom-blue relative">
+              <div className="absolute -top-3 md:-top-4 left-1/2 transform -translate-x-1/2">
+                <div className="bg-custom-blue text-white px-4 md:px-6 py-1 md:py-2 rounded-full text-xs md:text-sm font-semibold">
                   Empfohlen
                 </div>
               </div>
               
-              <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-custom-blue rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-center mb-6 md:mb-8">
+                <div className="w-12 h-12 md:w-16 md:h-16 bg-custom-blue rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                  <svg className="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Stahl Digital</h3>
-                <p className="text-custom-blue font-medium">100% transparent & fair</p>
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Stahl Digital</h3>
+                <p className="text-custom-blue font-medium text-sm md:text-base">100% transparent & fair</p>
               </div>
               
-              <div className="space-y-6">
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Setup-Gebühren</span>
-                    <span className="text-2xl font-bold text-green-600">€0</span>
+              <div className="space-y-4 md:space-y-6">
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Setup-Gebühren</span>
+                    <span className="text-xl md:text-2xl font-bold text-green-600">€0</span>
                   </div>
-                  <p className="text-sm text-gray-500">Keine versteckten Kosten</p>
+                  <p className="text-xs md:text-sm text-gray-500">Keine versteckten Kosten</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Monatliche Investition</span>
-                    <span className="text-2xl font-bold text-custom-blue">€997</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Monatliche Investition</span>
+                    <span className="text-xl md:text-2xl font-bold text-custom-blue">€997</span>
                   </div>
-                  <p className="text-sm text-gray-500">Alles inklusive, keine Zusatzkosten</p>
+                  <p className="text-xs md:text-sm text-gray-500">Alles inklusive, keine Zusatzkosten</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Vertragslaufzeit</span>
-                    <span className="text-2xl font-bold text-green-600">Ohne Bindung</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Vertragslaufzeit</span>
+                    <span className="text-xl md:text-2xl font-bold text-green-600">Ohne Bindung</span>
                   </div>
-                  <p className="text-sm text-gray-500">Kündbar, volle Flexibilität</p>
+                  <p className="text-xs md:text-sm text-gray-500">Kündbar, volle Flexibilität</p>
                 </div>
                 
-                <div className="border-b border-gray-200 pb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-gray-700">Zusatzkosten</span>
-                    <span className="text-2xl font-bold text-green-600">€0</span>
+                <div className="border-b border-gray-200 pb-3 md:pb-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0 mb-1 md:mb-2">
+                    <span className="font-medium text-gray-700 text-sm md:text-base">Zusatzkosten</span>
+                    <span className="text-xl md:text-2xl font-bold text-green-600">€0</span>
                   </div>
-                  <p className="text-sm text-gray-500">Alles im Preis inklusive</p>
+                  <p className="text-xs md:text-sm text-gray-500">Alles im Preis inklusive</p>
                 </div>
                 
-                <div className="pt-4">
+                <div className="pt-3 md:pt-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-custom-blue mb-2">€11.964</div>
-                    <div className="text-sm text-gray-500">Gesamtinvestition im ersten Jahr</div>
+                    <div className="text-2xl md:text-3xl font-bold text-custom-blue mb-1 md:mb-2">€11.964</div>
+                    <div className="text-xs md:text-sm text-gray-500">Gesamtinvestition im ersten Jahr</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           
-          <div className="text-center mt-16">
-            <div className="bg-gradient-to-r from-custom-blue to-custom-orange rounded-2xl p-8 md:p-10 text-white shadow-xl max-w-4xl mx-auto">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">
+          <div className="text-center mt-12 md:mt-16">
+            <div className="bg-gradient-to-r from-custom-blue to-custom-orange rounded-xl md:rounded-2xl p-6 md:p-8 lg:p-10 text-white shadow-xl max-w-4xl mx-auto">
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3 md:mb-4">
                 Das spart dir im ersten Jahr
               </h3>
-              <div className="text-4xl md:text-5xl font-bold mb-6">€8.000 - €48.000</div>
-              <p className="text-lg md:text-xl mb-8 opacity-90">
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">€8.000 - €48.000</div>
+              <p className="text-base md:text-lg lg:text-xl mb-6 md:mb-8 opacity-90 px-4 md:px-0">
                 Und das bei besserem Service, messbaren Ergebnissen und voller Transparenz. 
                 Keine versteckten Kosten, keine Überraschungen.
               </p>
               <a 
                 href="/ihr-investment" 
-                className="inline-flex items-center px-8 py-4 bg-white text-custom-blue font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+                className="inline-flex items-center px-6 md:px-8 py-3 md:py-4 bg-white text-custom-blue font-semibold rounded-lg md:rounded-xl hover:bg-gray-100 transition-colors duration-200 shadow-lg text-sm md:text-base"
               >
                 Investment-Details ansehen
-                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 md:w-5 md:h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </a>

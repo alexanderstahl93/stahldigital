@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Footer from '../components/footer'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Unser Team - Stahl & Söhne KG | Alexander Stahl & Musa',
@@ -102,11 +103,16 @@ export default function TeamPage() {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-                      <span className="text-gray-700">Stahl & Söhne KG - Geschäftsführer</span>
+                      <Link href="https://www.stahlundsoehne.at"> 
+                      <span className="text-gray-700 hover:text-custom-blue">Stahl & Söhne KG - Geschäftsführer</span>
+                      </Link>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-                      <span className="text-gray-700">Simple AI - Founder & KI-Beratung</span>
+                      <Link href="https://www.simpleai.at">
+
+                      <span className="text-gray-700 hover:text-custom-blue">Simple AI - Founder & KI-Beratung</span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -232,10 +238,10 @@ export default function TeamPage() {
                   Unsere Leistungen entdecken
                 </a>
                 <a 
-                  href="/kontakt" 
+                  href="/leistungen/kostenlose-beratung" 
                   className="bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium px-8 py-4 rounded-lg transition-colors duration-200"
                 >
-                  Kontakt aufnehmen
+                  Beratung anfordern
                 </a>
               </div>
             </div>
