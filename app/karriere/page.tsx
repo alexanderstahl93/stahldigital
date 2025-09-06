@@ -97,12 +97,15 @@ export default function KarrierePage() {
               <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
                 Der Wachstumsagentur für Dienstleistungsbetriebe im DACH-Raum
               </p>
-              <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto m-4">
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto m-4">
                 Wir bauen gemeinsam mit unseren Kunden nachhaltiges Wachstum auf. 
+                </p>
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto m-2">
                 <strong className="text-custom-blue"> Transparent, ehrlich, datenbasiert.</strong>
-                <br />
+                </p>
+                <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto m-4">
                 Behandle das Unternehmen deiner Kunden wie dein eigenes – und wachse mit uns.
-              </p>
+                </p>
               <a
                 href="#offene-positionen"
                 className="inline-flex items-center px-8 py-4 bg-custom-blue text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg hover-lift"
@@ -186,7 +189,7 @@ export default function KarrierePage() {
                         <svg className="w-5 h-5 text-custom-blue mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        Übergabe an Delivery & enge Zusammenarbeit mit Marketing
+                        Übergabe an Delivery, sowie enge Zusammenarbeit mit Marketing & Customer Success
                       </li>
                     </ul>
                   </div>
@@ -222,7 +225,7 @@ export default function KarrierePage() {
                         <svg className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                         </svg>
-                        Fixum + attraktive Provision (6-stellig möglich)
+                        Überdurchschnittliche Vergütung durch attraktive Provision (5-stellig möglich)
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -251,7 +254,7 @@ export default function KarrierePage() {
                     </span>
                   </div>
                   <p className="text-gray-600 text-lg">
-                    Generierung & Qualifizierung von Leads für unser Sales-Team
+                    Terminvereinbarungen mit Dienstleistungsbetrieben im DACH-Raum
                   </p>
                 </div>
 
@@ -263,7 +266,7 @@ export default function KarrierePage() {
                         <svg className="w-5 h-5 text-custom-blue mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        Generierung & Qualifizierung von Leads
+                        Terminvereinbarungen mit Dienstleistungsbetrieben
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-custom-blue mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -311,7 +314,7 @@ export default function KarrierePage() {
                         <svg className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                         </svg>
-                        Fixum + Bonus pro Termin + Umsatzbeteiligung
+                        Überdurchschnittliche Vergütung durch attraktive Provision (⌀ 5.000€)
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -590,7 +593,7 @@ export default function KarrierePage() {
 
             <div className="grid md:grid-cols-4 gap-8 mb-12">
               {[
-                { step: "1", title: "Online bewerben", description: "Formular oder E-Mail an bewerbung@stahldigital.de" },
+                { step: "1", title: "Online bewerben", description: "Formular oder E-Mail an bewerbung@stahldigital.at" },
                 { step: "2", title: "Screening-Call", description: "15 Minuten Kennenlernen" },
                 { step: "3", title: "Fachgespräch", description: "Mit Team Lead Sales" },
                 { step: "4", title: "Cultural-Fit", description: "Interview mit Geschäftsführung" }
@@ -613,7 +616,7 @@ export default function KarrierePage() {
                 Und hilf Dienstleistungsbetrieben im DACH-Raum beim nachhaltigen Wachstum
               </p>
               <a
-                href="mailto:bewerbung@stahldigital.de?subject=Bewerbung%20Stahl%20Digital&body=Hallo%20Stahl%20Digital%20Team,%0D%0A%0D%0Aich%20interessiere%20mich%20für%20eine%20Position%20als%20[Closer/Setter]%20bei%20Stahl%20Digital.%0D%0A%0D%0A[Ihre%20Bewerbungsunterlagen%20hier%20einfügen]%0D%0A%0D%0AMit%20freundlichen%20Grüßen"
+                href="mailto:bewerbung@stahldigital.at?subject=Bewerbung%20Stahl%20Digital&body=Hallo%20Stahl%20Digital%20Team,%0D%0A%0D%0Aich%20interessiere%20mich%20für%20eine%20Position%20als%20[Closer/Setter]%20bei%20Stahl%20Digital.%0D%0A%0D%0A[Ihre%20Bewerbungsunterlagen%20hier%20einfügen]%0D%0A%0D%0AMit%20freundlichen%20Grüßen"
                 className="inline-flex items-center px-8 py-4 bg-white text-custom-blue font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200 shadow-lg"
               >
                 👉 Jetzt bewerben

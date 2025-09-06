@@ -201,8 +201,13 @@ export default function Footer() {
                       <span className="text-base opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                         {item.icon}
                       </span>
-                      <span className="group-hover:translate-x-1 transition-transform duration-200">
+                      <span className="group-hover:translate-x-1 transition-transform duration-200 flex items-center space-x-2">
                         {item.name}
+                        {item.name === 'Karriere' && (
+                          <span className="bg-custom-blue text-white text-xs px-2 py-0.5 rounded-full font-medium ml-2">
+                            Neu
+                          </span>
+                        )}
                       </span>
                     </a>
                   </li>
