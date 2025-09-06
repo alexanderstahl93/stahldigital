@@ -23,6 +23,7 @@ const navigation = {
     { name: 'Umzug', href: '/leistungen/branche/umzug', icon: '🏠' },
   ],
   company: [
+    { name: 'Karriere', href: '/karriere', icon: '💼' },
     { name: 'Das Team', href: '/team', icon: '👥' },
     { name: 'Ihr Investment', href: '/ihr-investment', icon: '💰' },
     { name: 'Referenzen', href: '/referenzen', icon: '🏆' },
