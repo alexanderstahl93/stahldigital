@@ -4,15 +4,15 @@ import Footer from '../components/footer'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Unser Team - Stahl & Söhne KG | Alexander Stahl & Musa',
-  description: 'Lernen Sie das Team von Stahl & Söhne KG kennen. Alexander Stahl - Builder of Purpose-Driven Businesses und Musa - Creative Video Professional.',
-  keywords: 'Team, Alexander Stahl, Musa, Stahl & Söhne KG, Creative Video, AI Strategy, Digital Transformation',
-  robots: 'index, follow',
+  title: 'Unser Team - Stahl Digital| Alexander Stahl & Musa Karaca',
+  description: 'Lernen Sie das Team von Stahl Digital kennen. Alexander Stahl - Builder of Purpose-Driven Businesses und Musa - Creative Video Professional.',
+  keywords: 'Team, Alexander Stahl, Musa Karaca, Stahl Digital, Creative Video, AI Strategy, Digital Transformation',
+  robots: 'index, follow',  
   openGraph: {
-    title: 'Unser Team - Stahl & Söhne KG',
-    description: 'Alexander Stahl & Musa - Ihr Team für digitale Transformation und kreative Lösungen',
+    title: 'Unser Team - Stahl Digital',
+    description: 'Alexander Stahl & Musa Karaca - Ihr Team für echtes Wachstum, und nachhaltige Ergebnisse.',
     type: 'website',
-    url: 'https://stahl-digital.com/team',
+    url: 'https://stahl-digital.at/team',
   }
 }
 
@@ -27,8 +27,8 @@ export default function TeamPage() {
               Unser Team
             </h1>
             <p className="text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto mb-8">
-              Das kreative Duo hinter Stahl & Söhne KG - wo strategisches Denken auf kreative Umsetzung trifft. 
-              Lernen Sie Alexander Stahl und Musa kennen, die Ihr Unternehmen mit KI-Strategie und kreativen Video-Lösungen auf das nächste Level bringen.
+              Das kreative Duo hinter Stahl Digital - wo strategisches Denken auf kreative Umsetzung trifft. 
+              Lernen Sie Alexander Stahl und Musa Karaca kennen, die Ihr Unternehmen mit KI-Strategie und kreativen Video-Lösungen auf das nächste Level bringen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -119,43 +119,43 @@ export default function TeamPage() {
               </div>
               
               {/* Bild von Alexander Stahl */}
-              <div className="order-first md:order-last">
+              <div className="order-first md:order-last relative z-10">
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8 md:p-12">
-                  <div className="text-center space-y-4">
-                    <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white shadow-lg">
+                  <div className="text-center space-y-6">
+                    <div className="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto overflow-hidden border-4 border-white shadow-2xl">
                       <Image
-                        src="/alexanderstahl.png"
+                        src="/alexanderstahl-2.png"
                         alt="Alexander Stahl - Geschäftsführer & Gründer Stahl Digital"
-                        width={128}
-                        height={128}
+                        width={224}
+                        height={224}
                         className="w-full h-full object-cover"
                         priority
                       />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Alexander Stahl</h3>
-                    <p className="text-gray-600">Geschäftsführer & Gründer</p>
+                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900">Alexander Stahl</h3>
+                    <p className="text-lg text-gray-600">Geschäftsführer & Gründer</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Musa - Bild */}
+            {/* Musa Karaca - Bild */}
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-              <div className="order-first">
+              <div className="order-first relative z-10">
                 <div className="bg-gradient-to-br from-emerald-50 to-teal-100 rounded-2xl p-8 md:p-12">
-                  <div className="text-center space-y-4">
-                    <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white shadow-lg">
+                  <div className="text-center space-y-6">
+                    <div className="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto overflow-hidden border-4 border-white shadow-2xl">
                       <Image
-                        src="/musakaraca.jpeg"
-                        alt="Musa Karaca - Creative Video Professional Stahl Digital"
-                        width={128}
-                        height={128}
+                        src="/musakaraca.png"
+                        alt="Musa Karaca - Media Professional Stahl Digital"
+                        width={224}
+                        height={224}
                         className="w-full h-full object-cover"
                         priority
                       />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Musa</h3>
-                    <p className="text-gray-600">Creative Video Professional</p>
+                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900">Musa Karaca</h3>
+                    <p className="text-lg text-gray-600">Media Professional & Gründer</p>
                   </div>
                 </div>
               </div>
@@ -163,7 +163,7 @@ export default function TeamPage() {
               <div className="space-y-6">
                 <div className="space-y-4">
                   <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight">
-                    Musa
+                    Musa Karaca
                   </h2>
                   <p className="text-xl text-emerald-600 font-medium">
                     Creative Video Professional
@@ -172,7 +172,7 @@ export default function TeamPage() {
                 
                 <div className="space-y-4 text-lg leading-relaxed text-gray-600">
                   <p>
-                    Als kreativer Video-Experte bringt Musa eine einzigartige Perspektive in unser Team ein. 
+                    Als kreativer Video-Experte bringt Musa Karaca eine einzigartige Perspektive in unser Team ein. 
                     Seine Expertise liegt in der visuellen Kommunikation und der Erschaffung von 
                     fesselnden Inhalten, die Geschichten zum Leben erwecken.
                   </p>
@@ -210,7 +210,7 @@ export default function TeamPage() {
               </h2>
               <div className="max-w-4xl mx-auto space-y-6 text-lg leading-relaxed text-gray-600">
                 <p>
-                  Bei Stahl & Söhne KG verbinden wir strategisches Denken mit kreativer Umsetzung. 
+                  Bei Stahl Digitalverbinden wir strategisches Denken mit kreativer Umsetzung. 
                   Alexanders Expertise in AI-Strategie und digitaler Transformation trifft auf Musas 
                   kreative Vision für visuelle Kommunikation.
                 </p>
