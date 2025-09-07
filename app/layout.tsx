@@ -10,13 +10,22 @@ import ScrollProgress from "./components/scroll-progress";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stahl Digital | Elite SEO Agentur Wien | Google Ads & Reputationsmanagement",
-  description: "Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen um durchschnittlich 40%. Lokale Expertise für Wien & Umgebung.",
+  title: "Stahl Digital | Wachstumspartner für Dienstleistungsunternehmen in DACH | SEO, Google Ads & Reputationsmanagement",
+  description: "Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen in DACH.",
   keywords: [
     "SEO Agentur Wien",
     "Google Ads Wien", 
     "Reputationsmanagement Wien",
     "Digital Marketing Wien",
+    "Digital Marketing DACH",
+    "SEO Optimierung DACH",
+    "Google Werbung DACH",
+    "Marketing Agentur DACH",
+    "Umsatzsteigerung DACH",
+    "Lokale SEO DACH",
+    "Google Bewertungen DACH",
+    "Online Marketing DACH",
+    "Conversion Optimierung DACH",
     "SEO Optimierung Österreich",
     "Google Werbung Wien",
     "Marketing Agentur Wien",
@@ -24,7 +33,14 @@ export const metadata: Metadata = {
     "Lokale SEO Wien",
     "Google Bewertungen Wien",
     "Online Marketing Wien",
-    "Conversion Optimierung Wien"
+    "Conversion Optimierung Wien",
+    "Wien SEO Agentur",
+    "Wien Google Ads Agentur",
+    "Wien Reputationsmanagement Agentur",
+    "Wien Digital Marketing Agentur",
+    "Wien SEO Optimierung Agentur",
+    "Wien Google Ads Management Agentur",
+    "Wien Reputationsmanagement Agentur",
   ].join(", "),
   authors: [{ name: "Stahl Digital Team" }],
   creator: "Stahl Digital",
@@ -47,21 +63,21 @@ export const metadata: Metadata = {
     locale: 'de_AT',
     url: 'https://stahldigital.at',
     siteName: 'Stahl Digital',
-    title: 'Stahl Digital | Elite SEO Agentur Wien | Google Ads & Reputationsmanagement',
-    description: 'Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen um durchschnittlich 40%.',
+    title: 'Stahl Digital | Wachstumspartner für Dienstleistungsunternehmen in DACH | SEO, Google Ads & Reputationsmanagement',
+    description: 'Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen in DACH.',
     images: [
       {
         url: '/stahl_digital.png',
         width: 1200,
         height: 630,
-        alt: 'Stahl Digital - Elite Marketing Agentur Wien',
+        alt: 'Stahl Digital - Wachstumspartner für Dienstleistungsunternehmen in DACH',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Stahl Digital | Elite SEO Agentur Wien',
-    description: 'Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien',
+    title: 'Stahl Digital | Wachstumspartner für Dienstleistungsunternehmen in DACH',
+    description: 'Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen in DACH.',
     images: ['/stahl_digital.png'],
   },
   robots: {
@@ -112,15 +128,22 @@ export default function RootLayout({
     "@type": "DigitalMarketingAgency",
     "name": "Stahl Digital",
     "alternateName": "Stahl Digital Marketing Agentur",
-    "description": "Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen um durchschnittlich 40%.",
+    "description": "Professionelle SEO, Google Ads & Reputationsmanagement Agentur in Wien. Wir steigern den Umsatz von Dienstleistungsunternehmen in DACH.",
     "url": "https://stahldigital.at",
     "logo": "https://stahldigital.at/stahl_digital.png",
     "image": "https://stahldigital.at/stahl_digital.png",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Wien",
+      "addressStreet": "Fleischmarkt 1/6",
+      "addressPostalCode": "1010",
       "addressRegion": "Wien",
-      "addressCountry": "AT"
+      "addressCountry": "Österreich"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.2082,
+      "longitude": 16.3738
     },
     "contactPoint": {
       "@type": "ContactPoint",
@@ -138,24 +161,6 @@ export default function RootLayout({
       },
       "geoRadius": "50000"
     },
-    "areaServed": ["Wien", "Niederösterreich", "Burgenland"],
-    "services": [
-      {
-        "@type": "Service",
-        "name": "SEO Optimierung",
-        "description": "Strategische Suchmaschinenoptimierung für nachhaltige Sichtbarkeit"
-      },
-      {
-        "@type": "Service",
-        "name": "Google Ads Management",
-        "description": "Zielgerichtete Werbekampagnen mit messbarem ROI"
-      },
-      {
-        "@type": "Service",
-        "name": "Reputationsmanagement",
-        "description": "Aufbau und Schutz Ihres Online-Rufs"
-      }
-    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Marketing-Pakete",
