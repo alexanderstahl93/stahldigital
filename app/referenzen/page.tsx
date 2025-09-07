@@ -107,7 +107,7 @@ export default function Referenzen() {
             </a>
 
             {/* Stahl & Söhne KG */}
-              <a href="https://www.stahlundsoehne.de" className="block group">
+              <a href="https://www.stahlundsoehne.at" className="block group">
               <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden transition-all duration-200 group-hover:shadow-xl group-hover:border-blue-300">
                 <div className="p-6 md:p-8">
                   <div className="flex items-center mb-6">

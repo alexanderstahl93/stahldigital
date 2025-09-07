@@ -37,7 +37,7 @@ const structuredData = {
   "hasJobPosting": [
     {
       "@type": "JobPosting",
-      "title": "Sales Closer (m/w/d)",
+      "title": "Sales Closer (m/w)",
       "description": "Abschluss qualifizierter Deals mit Dienstleistungsbetrieben. Beratungsgespräche auf Augenhöhe führen und Übergabe an Delivery-Team.",
       "employmentType": "FULL_TIME",
       "hiringOrganization": {
@@ -57,7 +57,7 @@ const structuredData = {
     },
     {
       "@type": "JobPosting",
-      "title": "Sales Setter (m/w/d)",
+      "title": "Sales Setter (m/w)",
       "description": "Generierung und Qualifizierung von Leads. Erstgespräche vereinbaren für unsere Closer mit modernen Tools.",
       "employmentType": "FULL_TIME",
       "hiringOrganization": {
@@ -159,7 +159,7 @@ export default function KarrierePage() {
               <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200 hover-lift">
                 <div className="mb-6">
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Sales Closer (m/w/d)</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Sales Closer (m/w)</h3>
                     <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
                       Senior Level
                     </span>
@@ -248,7 +248,7 @@ export default function KarrierePage() {
               <div className="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-gray-200 hover-lift">
                 <div className="mb-6">
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Sales Setter (m/w/d)</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Sales Setter (m/w)</h3>
                     <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
                       Entry Level
                     </span>
