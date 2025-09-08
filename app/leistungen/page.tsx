@@ -3,8 +3,8 @@ import Footer from '../components/footer'
 
 export const metadata: Metadata = {
   title: "Digitale Marketing Leistungen Wien - SEO, Google Ads & AI Search | Stahl Digital",
-  description: "Professionelle digitale Marketing Leistungen in Wien: Local SEO, Google Ads Management, Reputationsmanagement, AI Search Integration und Web App Development. Steigern Sie Ihre Sichtbarkeit und Umsatz.",
-  keywords: "digitale marketing leistungen wien, seo agentur wien, google ads management, reputationsmanagement, ai search integration, web app development, local seo, conversion optimierung",
+  description: "Professionelle digitale Marketing Leistungen in Wien: Local SEO, Meta Ads, Reputationsmanagement, AI Search Integration und Web App Development. Steigern Sie Ihre Sichtbarkeit und Umsatz.",
+  keywords: "digitale marketing leistungen wien, seo agentur wien, meta ads, reputationsmanagement, ai search integration, web app development, local seo, conversion optimierung",
   authors: [{ name: "Stahl Digital KG" }],
   robots: "index, follow",
   openGraph: {
@@ -67,41 +67,41 @@ const services = [
     ]
   },
   {
-    category: "Google Ads Management",
-    slug: "google-ads",
-    description: "Professionelle Google Ads Kampagnen für gezielte Lead-Generierung",
+    category: "Meta Ads Management",
+    slug: "meta-ads",
+    description: "Professionelle Meta Ads Kampagnen für gezielte Lead-Generierung",
     services: [
       {
-        name: "Google Ads Setup",
+        name: "Meta Ads Setup",
         slug: "google-ads-setup",
-        description: "Professioneller Aufbau von Google Ads Kampagnen",
+        description: "Professioneller Aufbau von Meta Ads Kampagnen",
         features: ["Kampagnen-Struktur", "Keyword-Research", "Ad-Copy-Erstellung", "Conversion-Tracking"],
         price: "ab €1.490/monatlich"
       },
       {
-        name: "Google Ads Betreuung",
+        name: "Meta Ads Betreuung",
         slug: "google-ads-betreuung",
-        description: "Kontinuierliche Optimierung und Betreuung Ihrer Kampagnen",
+        description: "Kontinuierliche Optimierung und Betreuung Ihrer Meta Ads Kampagnen",
         features: ["Performance-Monitoring", "Bid-Optimierung", "A/B-Testing", "Budget-Management"],
         price: "ab €1.490/monatlich"
       },
       {
         name: "Display & Video Ads",
-        slug: "display-video-ads",
+        slug: "meta-ads-display-video-ads",
         description: "Erweiterte Werbeformate für maximale Reichweite",
         features: ["Display-Netzwerk", "YouTube-Werbung", "Remarketing", "Audience-Targeting"],
         price: "ab €2.490/monatlich"
       },
       {
         name: "Retargeting",
-        slug: "retargeting",
+        slug: "meta-ads-retargeting",
         description: "Gezielte Ansprache von Interessenten und Kunden",
         features: ["Audience-Segmentierung", "Dynamisches Retargeting", "Cross-Device-Tracking", "Conversion-Optimierung"],
         price: "ab €2.490/monatlich"
       },
       {
         name: "Landingpage A/B-Tests",
-        slug: "landingpage-ab-tests",
+        slug: "meta-ads-landingpage-ab-tests",
         description: "Optimierung Ihrer Landingpages für maximale Conversion",
         features: ["Hypothesen-Entwicklung", "Test-Design", "Statistische Auswertung", "Implementierung"],
         price: "ab €2.490/monatlich"
@@ -144,36 +144,52 @@ const services = [
     ]
   },
   {
-    category: "AI Search Integration",
-    slug: "ai-search",
-    description: "Moderne KI-gestützte Suchfunktionen für Ihre Website",
+    category: "LLM SEO & AI Visibility",
+    slug: "llm-seo",
+    description: "Sichtbarkeit in KI-Suchmaschinen (ChatGPT, Google Gemini, Claude, Perplexity)",
     services: [
+      {
+        name: "LLM SEO Monitoring",
+        slug: "llm-seo-monitoring",
+        description: "Überwachung, wie Ihre Inhalte in KI-Suchmaschinen erscheinen",
+        features: [
+          "Analyse der AI-Search-Visibility",
+          "Tracking von Erwähnungen in ChatGPT, Claude, Gemini, Perplexity",
+          "Content Gap Report (welche Fragen werden von KI beantwortet – und welche nicht)",
+          "Handlungsempfehlungen zur Optimierung"
+        ],
+        price: "ab €890/monatlich"
+      },
+      {
+        name: "Conversational Content SEO",
+        slug: "conversational-content-seo",
+        description: "Erstellung KI-optimierter Inhalte, die in ChatGPT & Co. zitiert werden",
+        features: [
+          "Erstellung von FAQ & Q&A Content",
+          "Optimierung auf natürliche Sprachmuster (Conversational Queries)",
+          "Mehrsprachige SEO-Optimierung",
+          "EEAT-Signale (Expertise, Authoritativeness, Trustworthiness) stärken"
+        ],
+        price: "ab €1.490/projekt"
+      },
       {
         name: "AI Search Integration",
         slug: "ai-search-integration",
-        description: "Integration intelligenter Suchfunktionen in Ihre Website",
-        features: ["Semantische Suche", "FAQ-Integration", "Chat-ähnliche Anfragen", "Automatische Antworten"],
+        description: "Integration moderner KI-Suchfunktionen direkt auf Ihrer Website",
+        features: [
+          "Semantische Suche",
+          "Chat-ähnliche Anfragen",
+          "Automatische Antworten auf Kundenfragen",
+          "Integration mit bestehenden Datenquellen"
+        ],
         price: "ab €2.490/monatlich"
-      },
-      {
-        name: "Custom LLM",
-        slug: "custom-llm",
-        description: "Maßgeschneiderte KI-Modelle für Ihre Branche",
-        features: ["Fine-tuning", "Branchenspezifisches Training", "Custom Responses", "Performance-Optimierung"],
-        price: "ab €2.500 einmalig"
-      },
-      {
-        name: "Semantische Suche",
-        slug: "semantische-suche",
-        description: "Verständnisbasierte Suche für bessere Nutzererfahrung",
-        features: ["Intent-Erkennung", "Kontextverständnis", "Mehrsprachige Suche", "Learning-Algorithmen"],
-        price: "ab €290/monatlich"
       }
     ]
   },
+  
   {
     category: "Web App Development",
-    slug: "web-apps",
+    slug: "web-app-development",
     description: "Maßgeschneiderte Web-Anwendungen für Ihr Business",
     services: [
       {

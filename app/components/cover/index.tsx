@@ -243,7 +243,7 @@ export default function Cover() {
               <div className="relative inline-block">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full mx-auto lg:mx-0 overflow-hidden shadow-2xl border-4 border-white">
                   <Image
-                    src="/alexanderstahl.png"
+                    src="/alexanderstahl-2.png"
                     alt="Alexander Stahl - Stahl Digital"
                     width={320}
                     height={320}

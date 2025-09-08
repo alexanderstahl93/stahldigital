@@ -146,7 +146,7 @@ export default function TeamPage() {
                   <div className="text-center space-y-6">
                     <div className="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto overflow-hidden border-4 border-white shadow-2xl">
                       <Image
-                        src="/musakaraca.png"
+                        src="/musakaraca-2.png"
                         alt="Musa Karaca - Media Professional Stahl Digital"
                         width={224}
                         height={224}
