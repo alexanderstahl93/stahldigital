@@ -259,7 +259,7 @@ export default function RootLayout({
         <Navbar />
         {children}
       </body>
-      <GoogleAnalytics gaId="G-" />
+      <GoogleAnalytics gaId="G-6HFF7H1CV9" />
     </html>
   );
 }
