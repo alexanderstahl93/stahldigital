@@ -34,35 +34,30 @@ const services = [
         slug: "local-seo-setup",
         description: "Optimierung für lokale Suchergebnisse mit Google Business Profile",
         features: ["Google Business Optimierung", "Lokale Keywords", "NAP-Konsistenz", "Lokale Backlinks"],
-        price: "ab €1.490/monatlich"
       },
       {
         name: "SEO Betreuung",
         slug: "seo-betreuung",
         description: "Kontinuierliche SEO-Optimierung und Content-Strategie",
         features: ["Keyword-Monitoring", "Content-Erstellung", "Technische Optimierung", "Performance-Tracking"],
-        price: "ab €1.490/monatlich"
       },
       {
         name: "Technisches SEO",
         slug: "technisches-seo",
         description: "Optimierung der technischen Website-Grundlagen",
         features: ["Core Web Vitals", "Strukturierte Daten", "XML-Sitemaps", "Robots.txt Optimierung"],
-        price: "ab €2.490/monatlich"
       },
       {
         name: "Content Marketing",
         slug: "content-marketing",
         description: "Strategische Content-Erstellung für organisches Wachstum",
         features: ["Blog-Strategie", "SEO-optimierte Texte", "Content-Kalender", "Performance-Analyse"],
-        price: "ab €2.490/monatlich"
       },
       {
         name: "Wettbewerbsanalyse",
         slug: "wettbewerbsanalyse",
         description: "Umfassende Analyse der Konkurrenz und Marktpositionierung",
         features: ["Keyword-Gap-Analyse", "Backlink-Analyse", "Content-Analyse", "Strategie-Empfehlungen"],
-        price: "ab €2.490/monatlich"
       }
     ]
   },
@@ -76,35 +71,30 @@ const services = [
         slug: "google-ads-setup",
         description: "Professioneller Aufbau von Meta Ads Kampagnen",
         features: ["Kampagnen-Struktur", "Keyword-Research", "Ad-Copy-Erstellung", "Conversion-Tracking"],
-        price: "ab €1.490/monatlich"
       },
       {
         name: "Meta Ads Betreuung",
         slug: "google-ads-betreuung",
         description: "Kontinuierliche Optimierung und Betreuung Ihrer Meta Ads Kampagnen",
         features: ["Performance-Monitoring", "Bid-Optimierung", "A/B-Testing", "Budget-Management"],
-        price: "ab €1.490/monatlich"
       },
       {
         name: "Display & Video Ads",
         slug: "meta-ads-display-video-ads",
         description: "Erweiterte Werbeformate für maximale Reichweite",
         features: ["Display-Netzwerk", "YouTube-Werbung", "Remarketing", "Audience-Targeting"],
-        price: "ab €2.490/monatlich"
       },
       {
         name: "Retargeting",
         slug: "meta-ads-retargeting",
         description: "Gezielte Ansprache von Interessenten und Kunden",
         features: ["Audience-Segmentierung", "Dynamisches Retargeting", "Cross-Device-Tracking", "Conversion-Optimierung"],
-        price: "ab €2.490/monatlich"
       },
       {
         name: "Landingpage A/B-Tests",
         slug: "meta-ads-landingpage-ab-tests",
         description: "Optimierung Ihrer Landingpages für maximale Conversion",
         features: ["Hypothesen-Entwicklung", "Test-Design", "Statistische Auswertung", "Implementierung"],
-        price: "ab €2.490/monatlich"
       }
     ]
   },
@@ -118,28 +108,24 @@ const services = [
         slug: "google-bewertungen",
         description: "Strategischer Aufbau positiver Google Bewertungen",
         features: ["Bewertungsstrategie", "QR-Code-System", "E-Mail-Vorlagen", "Response-Management"],
-        price: "ab €1.490/monatlich"
       },
       {
         name: "Bewertungsautomatisierung",
         slug: "bewertungsautomatisierung",
         description: "Automatisierte Bewertungsanfragen und -verwaltung",
         features: ["E-Mail/SMS-System", "Bewertungs-Dashboard", "Automatische Follow-ups", "Performance-Tracking"],
-        price: "ab €4.990/monatlich"
       },
       {
         name: "Reputationsmanagement",
         slug: "reputationsmanagement",
         description: "Umfassendes Management Ihres Online-Rufs",
         features: ["Monitoring aller Plattformen", "Krisenmanagement", "Positiv-Content-Erstellung", "Influencer-Cooperation"],
-        price: "ab €2.490/monatlich"
       },
       {
         name: "Bewertungs-Dashboard",
         slug: "bewertungs-dashboard",
         description: "Zentrales Dashboard für alle Bewertungen und Reviews",
         features: ["Multi-Platform-Monitoring", "Analytics & Reporting", "Alert-System", "Response-Templates"],
-        price: "ab €4.990/monatlich"
       }
     ]
   },
@@ -158,7 +144,6 @@ const services = [
           "Content Gap Report (welche Fragen werden von KI beantwortet – und welche nicht)",
           "Handlungsempfehlungen zur Optimierung"
         ],
-        price: "ab €890/monatlich"
       },
       {
         name: "Conversational Content SEO",
@@ -170,7 +155,6 @@ const services = [
           "Mehrsprachige SEO-Optimierung",
           "EEAT-Signale (Expertise, Authoritativeness, Trustworthiness) stärken"
         ],
-        price: "ab €1.490/projekt"
       },
       {
         name: "AI Search Integration",
@@ -182,7 +166,6 @@ const services = [
           "Automatische Antworten auf Kundenfragen",
           "Integration mit bestehenden Datenquellen"
         ],
-        price: "ab €2.490/monatlich"
       }
     ]
   },
@@ -197,28 +180,24 @@ const services = [
         slug: "web-app-development",
         description: "Entwicklung individueller Web-Anwendungen",
         features: ["MVP-Entwicklung", "Responsive Design", "API-Integration", "Performance-Optimierung"],
-        price: "ab €4.900 einmalig"
       },
       {
         name: "Lead-Kalkulator",
         slug: "lead-kalkulator",
         description: "Interaktive Kalkulatoren für Lead-Generierung",
         features: ["Custom-Berechnungen", "Formular-Integration", "Analytics-Tracking", "Mobile-Optimierung"],
-        price: "ab €4.900 einmalig"
       },
       {
         name: "Buchungstool",
         slug: "buchungstool",
         description: "Online-Buchungssystem für Termine und Services",
         features: ["Kalender-Integration", "Zahlungsabwicklung", "E-Mail-Benachrichtigungen", "Admin-Dashboard"],
-        price: "ab €4.900 einmalig"
       },
       {
         name: "Bewertungsportal",
         slug: "bewertungsportal",
         description: "Eigenes Portal für Kundenbewertungen",
         features: ["Multi-Platform-Integration", "Moderation-Tools", "Analytics-Dashboard", "API-Anbindung"],
-        price: "ab €4.900 einmalig"
       }
     ]
   },
@@ -232,28 +211,24 @@ const services = [
         slug: "conversion-optimierung",
         description: "Systematische Optimierung Ihrer Conversion-Funnel",
         features: ["Funnel-Analyse", "A/B-Testing", "UX-Optimierung", "Conversion-Tracking"],
-        price: "ab €1.490 einmalig"
       },
       {
         name: "UX & Copywriting",
         slug: "ux-copywriting",
         description: "Optimierung von Nutzererfahrung und Texten",
         features: ["User-Research", "Copywriting", "Wireframing", "Usability-Testing"],
-        price: "ab €1.490 einmalig"
       },
       {
         name: "Foto-/Video-Shooting",
         slug: "foto-video-shooting",
         description: "Professionelle Medienproduktion für Marketing",
         features: ["Produktfotografie", "Video-Content", "Social Media Assets", "Brand-Storytelling"],
-        price: "ab €890 einmalig"
       },
       {
         name: "Performance-Reporting",
         slug: "performance-reporting",
         description: "Umfassende Berichterstattung und ROI-Tracking",
         features: ["KPI-Dashboard", "Automatisierte Reports", "ROI-Berechnung", "Trend-Analyse"],
-        price: "ab €190/monatlich"
       }
     ]
   }
@@ -369,7 +344,6 @@ export default function LeistungenPage() {
                         <div key={service.slug} className="border border-gray-200 rounded-lg p-4">
                           <div className="flex justify-between items-start mb-2">
                             <h4 className="font-medium text-gray-900">{service.name}</h4>
-                            <span className="text-sm text-gray-500">{service.price}</span>
                           </div>
                           <p className="text-sm text-gray-600 mb-3">{service.description}</p>
                           <div className="flex flex-wrap gap-1">
